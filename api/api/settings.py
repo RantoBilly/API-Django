@@ -84,11 +84,11 @@ WSGI_APPLICATION = 'api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'techlabapi',
+        'NAME': 'yourdb',
         'USER': 'postgres',
-        'PASSWORD': 'Bnbav172334',
+        'PASSWORD': 'yourpassword',
         'HOST': 'localhost',
-        'PORT': '5432',
+        'PORT': 'YOUR_PORT',
     }
 }
 
@@ -140,9 +140,9 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
-EMAIL_HOST_USER = 'billyar172334@gmail.com'
-EMAIL_HOST_PASSWORD = 'qfoglcoxrvbeyhuc'
-DEFAULT_FROM_EMAIL = 'billyar172334@gmail.com'
+EMAIL_HOST_USER = 'youremail@example.com'
+EMAIL_HOST_PASSWORD = 'yourapppassword'
+DEFAULT_FROM_EMAIL = 'youremail@example.com'
 
 AUTH_USER_MODEL = 'user.User'
 
